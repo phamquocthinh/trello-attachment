@@ -1,0 +1,19 @@
+{
+  "name": "trelloattachment",
+  "version": "1.0.0",
+  "description": "Get emails from fb user",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js",
+    "build": "electron-packager .  --overwrite --platform=darwin --arch=x64"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.2",
+    "electron-packager": "^15.0.0"
+  },
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "node-fetch": "^2.6.0"
+  }
+}

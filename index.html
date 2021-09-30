@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Downloader</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Scripts -->
+  <script>
+    delete module.exports
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+  <script src="./window.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+  <div id="container" class="container-fluid">
+
+    <!-- Input row -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+        <label for="directory">Directory</label>
+        <input id="directory" type="button" class="form-control text-input" value="">
+      </div>
+    </div>
+
+    <!-- Statistics row -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <label for="cookie">Cookie</label>
+        <textarea rows="3" id="cookie" class="form-control text-input"></textarea>
+      </div>
+    </div>
+
+    <!-- Statistics row -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <label for="json">Json</label>
+        <textarea rows="3" id="json" class="form-control text-input"></textarea>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="row text-center">
+      <div class="col-sm-6 mt-3 float-right">
+        <button type="button" class="btn btn-primary btn-xs btn-test align-right">Start</button>
+      </div>
+    </div>
+
+    <!-- Statistics row -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <label for="statistics">Statistics</label>
+        <textarea rows="5" id="statistics" class="form-control text-input" disabled style="font-size:10px"></textarea>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
